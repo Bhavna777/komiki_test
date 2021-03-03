@@ -1,0 +1,84 @@
+.sixth{
+    position: relative;
+    background: #2BC5B4;;
+  }
+  
+  .sixth h1{
+    padding-top: 24px;
+    font-family: Be Strong;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 69px;
+    color: #292C36;
+    text-align: center !important;
+  }
+   
+  .sixth .sociallinks{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+  }
+
+  .sixth .sociallinks img{
+    margin: 10px;
+  }
+
+
+  .sixth ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    list-style: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .TPP{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .TPP small{
+    margin-right: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 203.68%;
+    color: #000000;
+  }
+
+  .TPP p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 203.68%;
+    color: #000000;
+  }
+  
+  footer{
+    text-align: center;
+    margin-top: 16px;
+    padding-bottom: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 203.68%;
+    color: #000000;
+  }
+
+  @media (max-width: 600px){
+    .sixth ul{
+      display: block;
+      text-align: center;
+    }
+  }
+

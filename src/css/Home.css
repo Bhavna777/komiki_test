@@ -1,0 +1,481 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-clr: #2BC5B4;
+}
+
+.First{
+    display: flex;
+    height: auto;
+    background: var(--main-clr);
+    justify-content: center;
+    font-family: Open Sans;
+    color: #000000;
+}
+
+.First h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 63px;
+    padding-top: 5.2rem;
+}
+
+.First p{
+    margin-top: 1.3rem;
+}
+
+.First button{
+    width: 208px;
+    height: 49px;
+    border: 1.5px solid #1B1F1E;
+    box-sizing: border-box;
+    border-radius: 24.5px;
+    margin-top: 3rem;
+    background: var(--main-clr);
+}
+
+.First .penguins1{
+    margin-top: 9.8rem;
+    margin-left: 8rem;
+    padding-bottom: 4.1rem;
+}
+
+.First .penguins1 img{
+    width: auto;
+}
+
+/* Responsive  */
+
+@media (max-width: 1080px) {
+    .First .penguins1{
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 970px) {
+    .First{
+        text-align: center;
+    }
+    .First .penguins1{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .First{
+        display: block;
+        text-align: center;
+    }
+    .First .penguins1{
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 470px) {
+    .First .penguins1{
+        margin-top: 2rem;
+    }
+    .First .penguins1 img{
+        width: 90%;
+    }
+}
+
+
+/* Second Section  */
+
+.Second{
+  margin-bottom: 11.4rem;
+}
+
+.Second .content{
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.Second .content h1{
+  /* width: 523px;
+  height: 54px; */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 54px;
+  color: #000000;
+}
+
+.Second .content p{
+  width: 58px;
+  height: 32px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175.18%;
+  color: rgba(27, 31, 30, 0.8);
+  margin-top: 20px;
+}
+
+.Second .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 150px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+.Second .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 15px;
+  }
+  
+.Second .column img {
+    margin-top: 25px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  
+  @media screen and (max-width: 1000px) {
+    .Second .row{
+      padding: 0 30px;
+    }
+    .Second .column {
+      -ms-flex: 33.33%;
+      flex: 33.33%;
+      max-width: 33.33%;
+    }
+    .Second .content{
+      margin-left: 2.7rem;
+      margin-right: 2.7rem;
+    }
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    .Second .row{
+      padding: 0 30px;
+    }
+    .Second .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    .Second .Second .content{
+      display: block;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .Second .row{
+      padding: 0 30px;
+    }
+    .Second .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    .Second .content h1{
+      font-size: 1.8rem;
+    }
+  }
+ 
+
+
+.Third{
+  background: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  font-family: Open Sans;
+  color: #000000;
+  padding-top: 11.3rem;
+  margin-bottom: 5rem;
+}
+
+.Third h1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 63px;
+}
+
+.Third p{
+  margin-top: 1rem;
+}
+
+.Third button{
+  width: 208px;
+  height: 49px;
+  border: 1.5px solid #1B1F1E;
+  box-sizing: border-box;
+  border-radius: 24.5px;
+  margin-top: 3rem;
+  background: #F6F6F6;
+}
+
+.Third .penguins2{
+  /* margin-top: 9.8rem; */
+  margin-left: 16rem;
+  padding-bottom: 4.1rem;
+}
+
+.Third .penguins2 img{
+  width: auto;
+}
+
+/* Responsive  */
+
+@media (max-width: 1080px) {
+  .Third .penguins2{
+      margin-left: 2rem;
+  }
+}
+
+@media (max-width: 970px) {
+  .Third{
+      text-align: center;
+  }
+  .Third .penguins2{
+      margin-left: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .Third{
+      display: block;
+      text-align: center;
+  }
+  .Third .penguins2{
+      margin-top: 3rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .Third .penguins2{
+      margin-top: 2rem;
+  }
+  .Third .penguins2 img{
+      width: 90%;
+  }
+}
+
+
+
+/* Forth Section Start  */
+
+
+.Forth h1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 63px;
+  /* padding-top: 5.2rem; */
+  padding-left: 150px;
+}
+
+.Forth .content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Forth .content p{
+  padding-right: 150px;
+  padding-top: 30px;
+  height: 27px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+
+
+.grid {
+  margin: 40px 150px 64px 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 69px;
+  /* align-items: stretch; */
+  }
+
+.grid > article {
+  border-radius: 5px;
+  /* text-align: center; */
+  background: #FFFFFF;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+
+.grid > article img {
+  width: 100%;
+}
+
+
+.text {
+  padding: 0 20px 20px;
+}
+
+.text > img{
+  width: 20px;
+  height: 81px;
+}
+
+.text > h3{
+  text-transform: uppercase;
+}
+
+
+
+
+@media (max-width: 768px){
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px){
+  .grid{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+
+  .grid > article{
+    text-align: center;
+  }
+}
+
+
+
+
+.PressH{
+  margin: 32px 150px 80px 150px;
+}
+
+.PressH .Highlights{
+  display: flex;
+  padding: 15px 24px;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(27, 31, 30, 0.2);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.PressH .Highlights:not(:last-child){
+  margin-bottom: 16px;
+}
+
+@media (max-width: 900px){
+  .PressH{
+    margin: 32px 20px 80px 20px;
+  }
+}
+
+@media (max-width: 700px){
+  .PressH .Highlights{
+    display: block;
+  }
+  
+  .Forth h1{
+    padding-left: 32px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .Forth .content h1{
+    margin-bottom: -20px;
+  }
+  .Forth .content p{
+    padding-left: 32px;
+  }
+  .Forth .content{
+    display: block;
+  }
+}
+
+
+/* Forth Section End  */
+
+
+/* Fifth Section Start  */
+
+.Fifth{
+  height: 587px;
+  background: #F6F6F6;
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+  justify-content: space-between;
+}
+
+.Fifth .content{
+  padding-top: 158px;
+}
+
+.Fifth .content h1{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #000000;
+  margin-bottom: 52px;
+}
+
+
+.Fifth .Phone{
+  margin-top: 54px;
+}
+
+@media (max-width: 1100px){
+  .Fifth{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 900px){
+  .Fifth{
+    text-align: center;
+    height: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 600px){
+  .Fifth h1{
+    margin-top: -70px;
+  }
+  .Fifth img{
+    width: 99%;
+  }
+  .Fifth .Phone img{
+    width: 99%;
+  }
+}
+
+
+/* Five Section End  */
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+
+.cards .card1{
+    position: absolute;
+    width: 320px;
+    height: 203px;
+    left: 150px;
+    top: 1121px;
+  
+    background: #F6F6F6;
+    border: 1px solid rgba(27, 31, 30, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  
+  .cards .card2{
+    position: absolute;
+    width: 320px;
+    height: 203px;
+    left: 522px;
+    top: 1121px;
+  
+    background: #F6F6F6;
+    border: 1px solid rgba(27, 31, 30, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  
+  .cards .card3{
+    position: absolute;
+    width: 320px;
+    height: 203px;
+    left: 917px;
+    top: 1121px;
+  
+    background: #F6F6F6;
+    border: 1px solid rgba(27, 31, 30, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  
+  .cards .card1 h1{
+    width: 125px;
+    height: 65px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 65px;
+    margin: 56px 98px 1px 97px;
+    color: #000000;
+  }
+  
+  .cards .card1 p{
+    width: 77px;
+    height: 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-left: 122px;
+    margin-right: 121px;
+  }
+  
+  .cards .card2 h1{
+    width: 71px;
+    height: 65px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 65px;
+    margin: 56px 124px 1px 125px;
+    color: #000000;
+  }
+  
+  .cards .card2 p{
+    width: 84px;
+    height: 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-left: 118px;
+    margin-right: 118px;
+  }
+  
+  .cards .card3 h1{
+    width: 125px;
+    height: 65px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 65px;
+    margin: 56px 97px 1px 98px;
+    color: #000000;
+  }
+  
+  .cards .card3 p{
+    width: 195px;
+    height: 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-left: 63px;
+    margin-right: 62px;
+  }
+  
+  
+  @media screen and (max-width: 1200px){
+    .cards{
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  
+  
