@@ -1,17 +1,17 @@
 import React from 'react'
 import './../css/ComicsCard.css'
+import CardData from './CardData';
 
 function Card(props) {
   return (
-    <div className="ComicsCard">
-        <div className="image">
-          <img src={props.src} />
-        </div>
-        <div className="content">
-            <p className="left">{props.category}</p>
-            <h1> . </h1>
-            <p className="right">{props.likes}</p>
-        </div>
+    <div className="homepage-list-columns">
+      {CardData.map((photo, index) => {
+        return (
+          <div key={index} className="homepage-list-photo">
+            <img className={'homepage-list-image'} src={photo.src} role="presentation" />
+          </div>
+        );
+      })}
     </div>
   );
 }

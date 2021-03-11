@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.novels_nav ul{
+    margin-left: 150px;
+    margin-right: 213px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 33px;
+}
+
+.novels_nav ul li{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1B1F1E;
+}
+
+.novels_nav ul li:first-child{
+    width: 113px;
+    background: #2BC5B4;
+    border-radius: 24.5px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: -7px;
+}
+
+
+/* Card Start  */
+
+.novels{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 24px;
+}
+
+.novels .left .Card{
+    display: flex;
+}
+
+.novels .left .Card .content{
+    /* margin-left: 32px; */
+    align-items: center;
+    margin-top: 90px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.novels .left .Card .content h1{
+    /* width: 324px;
+    height: 42px; */
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 175.18%;
+    color: rgba(27, 31, 30, 0.8);
+}
+
+.novels .left .Card .content p{
+    font-size: 18px;
+    line-height: 175.18%;
+    color: #808080;
+}
+
+
+.novels .right .Card{
+    position: fixed;
+    display: flex;
+    margin-left: 121px;
+}
+
+.novels .right .Card .content{
+    font-family: Open Sans;
+    font-style: normal;
+    padding-left: 24px;
+    width: 318px;
+    height: 117px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+}
+
+.novels .right .Card .content h1{
+    width: 248px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 175.18%;
+    color: rgba(27, 31, 30, 0.8);
+}

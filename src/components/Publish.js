@@ -2,6 +2,7 @@ import React from 'react'
 import './../css/Publish.css';
 import Header from './Header';
 import Footer from './Footer';
+import {Link} from 'react-router-dom';
 
 function Publish() {
   return (
@@ -10,7 +11,7 @@ function Publish() {
         <div className="publish_banner">
             <h1 className="banner_title">How we help creators</h1>
             <p className="banner_desc">At Komiki, creators are limited only by what they dare to dream.<br/> Komiki can help creators bring their stories to print, television, feature film, merchandising, and more.</p>
-            <button className="get_started">Get Started</button>
+            <Link to="/dashboard"><button className="get_started">Get Started</button></Link>
             <p className="getstarted_desc">Are you a Publisher or Agent? Learn more</p>
         </div>
         <div class="publish-shortcut-nav">

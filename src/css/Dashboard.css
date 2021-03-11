@@ -1,0 +1,151 @@
+.dashboard_blank_sec{
+    /* width: 1440px; */
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), 0px 2px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-360deg);
+}
+
+
+.dashboard_body{
+    display: flex;
+}
+
+.index_body{
+    display: flex;
+}
+
+.index_body_left h1{
+    margin-top: 52px;
+    margin-left: 217px;
+    width: 117px;
+    height: 54px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.index_body_left h2{
+    margin-top: 53px;
+    margin-left: 385px;
+    width: 212px;
+    height: 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.index_body_left button{
+    width: 127px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.comic_btn{
+    margin-left: 358px;
+    margin-top: 16px;
+    margin-right: 16px;
+    background: #2BC5B4;
+}
+
+.novel_btn{
+    background: rgba(27, 31, 30, 0.35);
+}
+
+.komiki_insider, .milestones, .help{
+    width: 265px;
+    /* height: 247px; */
+    height: auto;
+    border: 1px solid #B5B5B5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 221px;
+    margin-top: 52px;
+}
+
+.komiki_insider .heading, .milestones .heading, .help .heading{
+    background: #808080;
+    border-radius: 5px 5px 0px 0px;
+    padding: 21px;
+}
+
+.komiki_insider .heading p, .milestones .heading p{
+    width: 161px;
+    height: 22px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.komiki_insider .content, .help .content{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 23px;
+    margin-bottom: 22px;
+}
+
+.komiki_insider .content p{
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.komiki_insider .content span{
+    font-weight: 600;
+    color: #000000;
+}
+
+
+.milestones{
+    margin-top: 57px;
+}
+
+
+.milestones .content{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.milestones .content p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 23px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.milestones .content ul{
+    list-style-type: circle;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 8px;
+    margin-left: 44px;
+}
+
+.help{
+    margin-top: 30px;
+}
+
+.help .content p{
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.help .content span{
+    font-weight: 600;
+}

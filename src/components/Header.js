@@ -14,7 +14,7 @@ function Header() {
                               <Link to="/comics" className="nav-link link">Comics</Link>
                           </li>
                           <li className="nav-item">
-                              <a href="#" className="nav-link link">Novel</a>
+                              <Link to="/novels" className="nav-link link">Novel</Link>
                           </li>
                           <li className="nav-item">
                               <a href="#" className="nav-link link">Mature</a>
@@ -34,7 +34,7 @@ function Header() {
                   </form>
                   <div className="user-nav">
                       <a href="#" className="link" id="login-link">Login</a>
-                      <Link to="publishing" className="link" id="signup-link">Publish</Link>
+                      <Link to="/publishing" className="link" id="signup-link">Publish</Link>
                   </div>
               </div>
               <div className="nav-toggle-btn">

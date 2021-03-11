@@ -1,0 +1,32 @@
+
+.sidebar {
+    width: 100px;
+    height: 893px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0 0;
+    background-color: #464656;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+
+
+.sidebar .dashboard_img img{
+    margin: 24px;
+}
+
+.sidebar .help_center{
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.sidebar .help_center p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 8px;
+    color: #FFFFFF;
+    margin-top: 2px;
+}

@@ -1,0 +1,229 @@
+.dashboard_blank_sec{
+    /* width: 1440px; */
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), 0px 2px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-360deg);
+}
+
+.uploadcomicpage_body{
+    display: flex;
+}
+
+.comic_form{
+    margin-left: 217px;
+}
+
+.comic_form .title{
+    margin-top: 96px;
+}
+
+
+.comic_form .label{
+    margin-bottom: 8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.comic_form .input{
+    width: 440px;
+    height: 40px;
+    border: 1px solid rgba(27, 31, 30, 0.35);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.comic_form .url{
+    margin-top: 76px;
+}
+
+.comic_form .thumb_desc{
+    display: flex;
+    margin-top: 56px;
+}
+
+.comic_form .thumb_img{
+    width: 125px;
+    height: 126px;
+    border: 1px dashed rgba(27, 31, 30, 0.35);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.comic_form .desc_img{
+    width: 299px;
+    height: 126px;
+    border: 1px solid rgba(27, 31, 30, 0.35);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+
+.book_cover{
+    margin-top: 76px;
+}
+
+.book_cover_upload{
+    display: flex;
+}
+
+.book_cover_img{
+    width: 125px;
+    height: 172px;
+    border: 1px dashed rgba(27, 31, 30, 0.35);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.book_cover .info{
+    margin-left: 15px;
+}
+
+.book_cover .info h5{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 12px;
+    color: #292C36;
+}
+
+.book_cover .info p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 9px;
+}
+
+.book_cover .info p span{
+    color: #4DB26A;
+}
+
+.cover_demo{
+    display: flex;
+    margin-top: 12px;
+}
+
+.cover_demo_first{
+    width: 76px;
+    height: 65px;
+    border: 1px solid rgba(27, 31, 30, 0.35);
+    box-sizing: border-box;
+    border-radius: 2px;
+    transform: rotate(90deg);
+}
+
+.cover_demo_sec{
+    width: 76px;
+    height: 65px;
+    border: 1px solid rgba(27, 31, 30, 0.35);
+    box-sizing: border-box;
+    border-radius: 2px;
+    transform: rotate(90deg);
+}
+
+.comic_form .series_banner{
+    margin-top: 56px;
+}
+
+.series_banner_img{
+    width: 439px;
+    height: 126px;
+    border: 1px dashed rgba(27, 31, 30, 0.35);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.series_banner_link, .customad_banner_link, .tags, .website{
+    margin-top: 56px;
+}
+
+.series_banner_link p, .custom_ad_banner p, .customad_banner_link p, .genre p,  .tags p, .website p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.custom_ad_banner{
+    margin-top: 76px;
+}
+
+.custom_ad_img{
+    width: 225px;
+    height: 126px;
+    border: 1px dashed rgba(27, 31, 30, 0.35);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.genre{
+    margin-top: 76px;
+}
+
+.genre ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.genre ul li{
+    border: 1px solid rgba(27, 31, 30, 0.35);
+    box-sizing: border-box;
+    border-radius: 13.5px;
+    padding: 4px 12px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+.genre_select{
+    width: 138px;
+    height: 40px;
+}
+
+.genre_select option{
+    width: 36px;
+    height: 19px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1B1F1E;
+}
+
+.main_genre{
+    margin-top: 56px;
+}
+
+.descending{
+    margin-top: 56px;
+    margin-bottom: 132px;
+}
+
+.descending h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.descending p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 8px;
+}
